@@ -22,7 +22,10 @@
 <body class="{{body_class}}">
 
     <header id="site-head">
-        {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
+        {{#if @blog.logo}}
+            <p style="text-align:center;"><img class="bloglogo" src="{{@blog.logo}}"/></p>
+        {{/if}}
+
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         {{> header-description}}
         {{navigation}}
@@ -49,6 +52,7 @@
         }
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script type="text/javascript" src="{{asset "js/jquery.sticky.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
 </body>
