@@ -112,7 +112,6 @@ article.preview p.readmore {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   background-color: #ffffff;
@@ -125,12 +124,10 @@ h1.blog-title {
   font-size: 48px;
   line-height: 52px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding: 0;
 }
 h2.blog-description {
-  /*border-bottom: 1px solid #ecf0f1;
-  border-top: 1px solid #ecf0f1;*/
   margin-bottom: 1em;
   margin-top: 0px;
   padding: .5em 1em;
@@ -225,7 +222,6 @@ div.authorimage {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   margin-right: 10px;
@@ -327,7 +323,7 @@ nav ul li a {
 }
 nav.menu {
   margin-bottom: 2.5em;
-  margin-top:0;
+  margin-top: 0;
   background-color: #ffffff;
 }
 nav.menu li {
