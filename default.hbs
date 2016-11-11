@@ -25,15 +25,7 @@
 </head>
 <body class="{{body_class}}">
 
-    <header id="site-head">
-        {{#if @blog.logo}}
-            <p style="text-align:center;"><img class="bloglogo" src="{{@blog.logo}}"/></p>
-        {{/if}}
-
-        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-        {{> header-description}}
-        {{navigation}}
-    </header>
+    {{> header}}
 
     {{{body}}}
 
