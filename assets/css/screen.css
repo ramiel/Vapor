@@ -68,8 +68,8 @@ pre {
 }
 p code {
   font-family: "Consolas", Courier, monospace;
-  font-size: .8em;
   line-height: 1.2em;
+  font-weight: bold;
 }
 h1 {
   color: #151515;
@@ -221,12 +221,13 @@ blockquote p {
   font-size: 20px;
   font-weight: 300;
   margin-top: 1em;
-  margin-bottom: 1.2em;
+  margin-bottom: 0;
   text-transform: uppercase;
 }
 .tags {
   font-size: 16px;
-  margin-bottom: 0.6em;
+  margin-bottom: 2em;
+  margin-top: 0;
 }
 div.authorimage {
   width: 70px;
