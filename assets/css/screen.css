@@ -101,6 +101,16 @@ article.preview p.readmore {
   text-transform: uppercase;
   font-weight: 400;
 }
+#site-head.internal img {
+  width: 20%;
+  vertical-align: middle;
+}
+#site-head.internal h1.blog-title {
+  margin-bottom: 1em;
+}
+#site-head.internal h1.blog-title a {
+  font-size: 0.7em;
+}
 /* === Header === */
 #blog-logo {
   display: block;
