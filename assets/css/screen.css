@@ -108,6 +108,11 @@ article.preview p.readmore {
 #site-head.internal h1.blog-title {
   margin-bottom: 1em;
 }
+@media only screen and (min-width: 320px) and (max-width: 662px) {
+  #site-head.internal h1.blog-title {
+    margin-bottom: 0;
+  }
+}
 #site-head.internal h1.blog-title a {
   font-size: 0.7em;
 }
@@ -126,7 +131,6 @@ article.preview p.readmore {
   background-position: center center !important;
   background-color: #ffffff;
 }
-h1.blog-title,
 h2.blog-description {
   text-align: center;
 }
@@ -342,11 +346,6 @@ nav.menu li:first-child {
 }
 nav.menu li:last-child {
   margin-right: 0;
-}
-@media only screen and (min-width: 320px) and (max-width: 662px) {
-  nav.menu li {
-    display: block;
-  }
 }
 nav.pagination li:first-child {
   margin-left: 0;

@@ -3,12 +3,6 @@
  */
 
 /*globals jQuery, document */
-(function ($) {
+(function (undefined) {
     "use strict";
-
-    $(document).ready(function(){
-
-        $(".sticky").sticky({topSpacing:0});
-    });
-
-}(jQuery));
+}());
