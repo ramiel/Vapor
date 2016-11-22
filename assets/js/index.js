@@ -5,10 +5,4 @@
 /*globals jQuery, document */
 (function ($) {
     "use strict";
-
-    $(document).ready(function(){
-
-        $(".sticky").sticky({topSpacing:0});
-    });
-
 }(jQuery));
