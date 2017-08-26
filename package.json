@@ -1,4 +1,7 @@
 {
-  "name": "Vapor",
-  "version": "1.4.1"
+  "name": "vapor",
+  "version": "1.5.0",
+  "author": {
+    "email": "fabrizio.ruggeri@gmail.com"
+  }
 }
