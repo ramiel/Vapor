@@ -1,3 +1,17 @@
+# Ghost 2.0 Compatibility
+
+[Vapor 1.6](https://github.com/sethlilly/Vapor/releases/tag/v1.6.0) is compatible with Ghost 2.0. Thanks to [jamesejr](https://github.com/jamesejr) for making this happen!
+
+# Deprecation Notice
+
+**UPDATE 2018-08-22**: Remember when I said 1.5 would be the last release in the 1.x series? Yeah, scratch that. Thanks to [jamesejr](https://github.com/jamesejr) for the PR featured in the [1.6 release](https://github.com/sethlilly/Vapor/releases/tag/v1.6.0) to provide Vapor compatibility with Ghost 2.0.
+
+**UPDATE**: Many thanks to [pokono](https://github.com/pokono) for the PR featured in the [1.5 release](https://github.com/sethlilly/Vapor/tree/v1.5.0) to bring Vapor up to compatibility with Ghost 1.0+. I’ve released that as the final release in the 1.x series. Moving forward, only 2.x releases will be maintained.
+
+With the [release of Ghost 1.0.0](https://blog.ghost.org/1-0/), Vapor 1.x is deprecated. Vapor 2.0.0 with full support for Ghost 1.0.0+ is coming, and as soon as I know when that will be, I'll update this repo with information. Thanks to everyone who has forked, contributed, and used Vapor! I'm looking forward to the next version.
+
+___
+
 # Vapor
 
 Minimal and responsive with a focus on typography, *Vapor* is a theme that embodies the core concept of [Ghost](http://ghost.org/)&mdash;it fades into the background, bringing the focus to your content.
@@ -10,13 +24,11 @@ The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respecti
 
 Other icons provided by [Font Awesome](https://github.com/FortAwesome/Font-Awesome) and released under SIL OFL 1.1.
 
-See *Vapor* in action at [Hipster Ghost](http://hipsterghost.com/).
-
 ## What's New?
 
-_[Hipster Ghost](http://hipsterghost.com) is always running the latest version of Vapor. You can preview all new features there._
+*New in 1.5:* Support for Ghost 1.x+.
 
-*New in 1.4:* You may now use the `{{> menu}}` partial to display a custom menu on your pages. This is helpful for linking to certain posts or static pages. To activate this feature, simply remove the `!` in `{{!> menu}}` in `index.hbs`, `post.hbs`, and `page.hbs`. Also included are the `{{> header-description}}` and `{{> footer-description}}` partials for those using the menu. You can simply add the `!` to `{{> header-description}}` in the header (now located in `default.hbs` for all posts and pages) to deactivate. Remove the `!` from the `{{!> footer-description}}` partial call on the same page to activate display of the description in the footer. If you want to edit these partials (to add menu items or other content), you'll find them in the `/partials` directory. If you're using a self-hosted version of Ghost, you may need to restart or reload Ghost in order for the Handlebars partials to recompile after editing. There are also three new commenting options (Disqus, Facebook, and Google+) that follow the same conventions. You'll find these calls in `post.hbs` and `page.hbs`. I contend that Disqus is the best of these three options in terms of appearance and responsiveness; YMMV.
+*New in 1.4:* You may now use the `{{> menu}}` partial to display a custom menu on your pages. This is helpful for linking to certain posts or static pages. To activate this feature, simply remove the `!` in `{{!> menu}}` in `default.hbs`. Also included are the `{{> header-description}}` and `{{> footer-description}}` partials for those using the menu. You can simply add the `!` to `{{> header-description}}` in the header (now located in `default.hbs` for all posts and pages) to deactivate. Remove the `!` from the `{{!> footer-description}}` partial call on the same page to activate display of the description in the footer. If you want to edit these partials (to add menu items or other content), you'll find them in the `/partials` directory. If you're using a self-hosted version of Ghost, you may need to restart or reload Ghost in order for the Handlebars partials to recompile after editing. There are also three new commenting options (Disqus, Facebook, and Google+) that follow the same conventions. You'll find these calls in `post.hbs` and `page.hbs`. I contend that Disqus is the best of these three options in terms of appearance and responsiveness; YMMV.
 
 See the [changelog](CHANGELOG.md) for a full list of new features in 1.4.
 
@@ -30,6 +42,8 @@ See the [changelog](CHANGELOG.md) for release details.
 
 | Version | Release Date |
 | :-----: | :----------: |
+| 1.6 | 2018-08-22 |
+| 1.5 | 2018-04-23 |
 | 1.4 | 2014-04-19 |
 | 1.3 | 2014-01-12 |
 | 1.2.1 | 2013-12-14 |
@@ -45,7 +59,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 ## Copyright & License
 
-Copyright (c) 2013-2014 Seth Lilly - Released under The MIT License.
+Copyright (c) 2013-2018 Seth Lilly - Released under The MIT License.
 
 ## Are you using Vapor?
 
