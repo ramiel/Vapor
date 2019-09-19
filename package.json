@@ -5,6 +5,9 @@
     "engines": {
         "ghost": ">=2.0.0"
     },
+    "scripts": {
+        "test": "gscan ."
+    },
     "license": "MIT",
     "author": {
         "email": "seth.lilly@gmail.com"
@@ -16,5 +19,8 @@
     ],
     "config": {
         "posts_per_page": 10
+    },
+    "devDependencies": {
+        "gscan": "^2.8.0"
     }
 }
