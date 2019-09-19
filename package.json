@@ -20,7 +20,5 @@
     "config": {
         "posts_per_page": 10
     },
-    "devDependencies": {
-        "gscan": "^2.8.0"
-    }
+    "devDependencies": {}
 }
